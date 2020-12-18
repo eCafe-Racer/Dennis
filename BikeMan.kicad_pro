@@ -292,6 +292,10 @@
     [
       "31587900-3516-4bc4-ba25-5d34304526dc",
       "ComputeModule"
+    ],
+    [
+      "32276c5f-6d36-454f-9f38-a6d1846ba87e",
+      "GPIO"
     ]
   ],
   "text_variables": {}
