@@ -1,0 +1,144 @@
+(kicad_sch (version 20201015) (generator eeschema)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 226.06 33.02) (size 31.75 24.13)
+    (stroke (width 0.001) (type solid) (color 132 0 132 1))
+    (fill (color 255 255 255 0.0000))
+    (uuid a37aae83-17bc-4ab3-8207-20408c46a8d9)
+    (property "Sheet name" "CAN Peripherals" (id 0) (at 226.06 32.3841 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "can_peripherals.kicad_sch" (id 1) (at 226.06 57.6589 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 129.54 40.64) (size 36.83 33.02)
+    (stroke (width 0.001) (type solid) (color 132 0 132 1))
+    (fill (color 255 255 255 0.0000))
+    (uuid 31587900-3516-4bc4-ba25-5d34304526dc)
+    (property "Sheet name" "ComputeModule" (id 0) (at 129.54 40.0041 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "compute_module.kicad_sch" (id 1) (at 129.54 74.1689 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 226.06 62.23) (size 31.75 20.32)
+    (stroke (width 0.001) (type solid) (color 132 0 132 1))
+    (fill (color 255 255 255 0.0000))
+    (uuid 97a6e0d0-e45e-4fe9-a578-968187c50165)
+    (property "Sheet name" "Power" (id 0) (at 226.06 61.5941 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "power.kicad_sch" (id 1) (at 226.06 83.0589 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/a37aae83-17bc-4ab3-8207-20408c46a8d9/" (page "2"))
+    (path "/97a6e0d0-e45e-4fe9-a578-968187c50165/" (page "3"))
+    (path "/31587900-3516-4bc4-ba25-5d34304526dc/" (page "4"))
+  )
+
+  (symbol_instances
+    (path "/a37aae83-17bc-4ab3-8207-20408c46a8d9/0a84b971-d754-4629-b214-733cd15c2e8b"
+      (reference "C?") (unit 1) (value "C") (footprint "")
+    )
+    (path "/a37aae83-17bc-4ab3-8207-20408c46a8d9/7d3e75fb-77be-4ce8-b1b3-f0ba58b58cfa"
+      (reference "C?") (unit 1) (value "C") (footprint "")
+    )
+    (path "/a37aae83-17bc-4ab3-8207-20408c46a8d9/60b46bc5-2226-41fc-bf34-6ca134e77106"
+      (reference "U?") (unit 1) (value "MCP2551") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
+    )
+    (path "/a37aae83-17bc-4ab3-8207-20408c46a8d9/e4896399-28cd-4b86-b0de-eb08fa8b51d3"
+      (reference "U?") (unit 1) (value "MCP2515") (footprint "Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm")
+    )
+    (path "/a37aae83-17bc-4ab3-8207-20408c46a8d9/a05876f6-02a1-4328-9052-ccc2bcbca09e"
+      (reference "Y?") (unit 1) (value "Crystal") (footprint "")
+    )
+    (path "/97a6e0d0-e45e-4fe9-a578-968187c50165/45099978-2c35-4f60-ad33-89bf51a66e3c"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/97a6e0d0-e45e-4fe9-a578-968187c50165/86ee7bbe-30c2-471b-9b22-95c076682d15"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/97a6e0d0-e45e-4fe9-a578-968187c50165/fcb0cd51-9f00-497e-9bbc-b2dbab7db47b"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/97a6e0d0-e45e-4fe9-a578-968187c50165/035d1520-03ed-41b3-a663-45ea9574a059"
+      (reference "C?") (unit 1) (value "C") (footprint "")
+    )
+    (path "/97a6e0d0-e45e-4fe9-a578-968187c50165/15a99ed6-283e-4dac-a61f-080460e9fe55"
+      (reference "C?") (unit 1) (value "C") (footprint "")
+    )
+    (path "/97a6e0d0-e45e-4fe9-a578-968187c50165/58ba1b01-3bca-4f42-b0cf-a5f31655c882"
+      (reference "C?") (unit 1) (value "C") (footprint "")
+    )
+    (path "/97a6e0d0-e45e-4fe9-a578-968187c50165/9a501847-092e-4514-9d66-97b97d6fa614"
+      (reference "C?") (unit 1) (value "C") (footprint "")
+    )
+    (path "/97a6e0d0-e45e-4fe9-a578-968187c50165/9e809244-f669-47da-984a-3c2f24a4d0a6"
+      (reference "C?") (unit 1) (value "C") (footprint "")
+    )
+    (path "/97a6e0d0-e45e-4fe9-a578-968187c50165/a21cf5d1-a3e3-457f-b336-bf1fd1b8a62c"
+      (reference "C?") (unit 1) (value "C") (footprint "")
+    )
+    (path "/97a6e0d0-e45e-4fe9-a578-968187c50165/c226a60f-a3c1-4664-8b75-15895b143ecd"
+      (reference "C?") (unit 1) (value "C") (footprint "")
+    )
+    (path "/97a6e0d0-e45e-4fe9-a578-968187c50165/ef4e4a48-7b9f-4d13-8cf2-f51b98e63330"
+      (reference "C?") (unit 1) (value "C") (footprint "")
+    )
+    (path "/97a6e0d0-e45e-4fe9-a578-968187c50165/0c99f17c-fc50-424b-96a5-90027145192b"
+      (reference "JP?") (unit 1) (value "SolderJumper_2_Open") (footprint "")
+    )
+    (path "/97a6e0d0-e45e-4fe9-a578-968187c50165/76c1fa79-d1f4-4be6-bdcd-33dfc33f2719"
+      (reference "L?") (unit 1) (value "L") (footprint "")
+    )
+    (path "/97a6e0d0-e45e-4fe9-a578-968187c50165/00d350ca-b759-4691-869f-433c5705136e"
+      (reference "R?") (unit 1) (value "R") (footprint "")
+    )
+    (path "/97a6e0d0-e45e-4fe9-a578-968187c50165/53d5dd0d-df49-4639-9a14-2b9ad2801cc9"
+      (reference "R?") (unit 1) (value "R") (footprint "")
+    )
+    (path "/97a6e0d0-e45e-4fe9-a578-968187c50165/8f15bd64-bf94-4a89-85d0-3d162bfd5495"
+      (reference "R?") (unit 1) (value "R") (footprint "")
+    )
+    (path "/97a6e0d0-e45e-4fe9-a578-968187c50165/54cdf27e-45be-4ca1-9f17-6793f34fb9f8"
+      (reference "U?") (unit 1) (value "AP64501") (footprint "")
+    )
+    (path "/31587900-3516-4bc4-ba25-5d34304526dc/2ec0dfc7-5ed7-4e15-bbfb-becad1cffe40"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/31587900-3516-4bc4-ba25-5d34304526dc/464b9b33-26cc-4ffb-a248-98db711b0f37"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/31587900-3516-4bc4-ba25-5d34304526dc/8214275b-1253-44db-82ac-2feb1a8e25a2"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/31587900-3516-4bc4-ba25-5d34304526dc/ec3f2132-890c-47fe-92b8-d45571d7ae27"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/31587900-3516-4bc4-ba25-5d34304526dc/e009b393-4493-4f84-b3b0-74620462db46"
+      (reference "J?") (unit 1) (value "Micro_SD_Card_Det") (footprint "")
+    )
+    (path "/31587900-3516-4bc4-ba25-5d34304526dc/e6f594e0-d10b-482d-9ce3-c7206d464705"
+      (reference "Module?") (unit 1) (value "ComputeModule4-CM4") (footprint "footprints:Raspberry-Pi-4-Compute-Module")
+    )
+    (path "/31587900-3516-4bc4-ba25-5d34304526dc/771209a0-cada-490c-9067-a28846c4fddf"
+      (reference "R?") (unit 1) (value "R") (footprint "")
+    )
+    (path "/31587900-3516-4bc4-ba25-5d34304526dc/9b666400-ac5f-4b1a-923f-3235599d51d6"
+      (reference "R?") (unit 1) (value "R") (footprint "")
+    )
+  )
+)
