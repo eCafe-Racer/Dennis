@@ -196,7 +196,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "unresolved_variable": "error",
@@ -205,7 +205,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "symbols"
+    ]
   },
   "meta": {
     "filename": "BikeMan.kicad_pro",
@@ -228,7 +230,7 @@
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0
+        "wire_width": 5.0
       }
     ],
     "meta": {
@@ -250,7 +252,7 @@
   "schematic": {
     "drawing": {
       "default_bus_thickness": 12.0,
-      "default_junction_size": 40.0,
+      "default_junction_size": 36.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "default_wire_thickness": 6.0,
@@ -278,7 +280,7 @@
   },
   "sheets": [
     [
-      "d9a80210-b260-4bf0-aa33-51f2e3792e14",
+      "d6bae735-82f1-4817-a068-5e92f3ea5e22",
       ""
     ],
     [
@@ -294,7 +296,7 @@
       "ComputeModule"
     ],
     [
-      "32276c5f-6d36-454f-9f38-a6d1846ba87e",
+      "dcebc119-cccd-4024-8818-4a007a6c2ca8",
       "GPIO"
     ]
   ],
