@@ -271,8 +271,8 @@
       "version": 0
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
-    "plot_directory": "",
+    "page_layout_descr_file": "misc\\page_layout.kicad_wks",
+    "plot_directory": "Documentation/0.1.1/",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
@@ -280,7 +280,7 @@
   },
   "sheets": [
     [
-      "78fb5ee5-0e27-4104-b488-597bad2bd61f",
+      "1a0d708d-6235-4e41-b4b4-49ee9cf97b7a",
       ""
     ],
     [
