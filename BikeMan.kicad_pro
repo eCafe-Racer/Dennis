@@ -298,6 +298,14 @@
     [
       "dcebc119-cccd-4024-8818-4a007a6c2ca8",
       "GPIO"
+    ],
+    [
+      "19c8499b-69ca-41a4-81d4-1e5248b15d37",
+      "RealTimeClock"
+    ],
+    [
+      "aaa85f83-a7d0-4df3-863b-b08e82081ab8",
+      "ComputeModule_B"
     ]
   ],
   "text_variables": {}
