@@ -407,8 +407,8 @@
   )
 
 
-  (no_connect (at 116.84 104.14))
   (no_connect (at 97.79 106.68))
+  (no_connect (at 116.84 104.14))
 
   (wire (pts (xy 66.04 110.49) (xy 77.47 110.49))
     (stroke (width 0) (type solid) (color 0 0 0 0))
