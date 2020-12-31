@@ -350,7 +350,7 @@
     (property "Sheet name" "ComputeModule_A" (id 0) (at 96.52 67.9441 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "compute_module.kicad_sch" (id 1) (at 96.52 102.1089 0)
+    (property "Sheet file" "compute_module_A.kicad_sch" (id 1) (at 96.52 102.1089 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -609,17 +609,17 @@
     (path "/97a6e0d0-e45e-4fe9-a578-968187c50165/54cdf27e-45be-4ca1-9f17-6793f34fb9f8"
       (reference "U3") (unit 1) (value "AP64501") (footprint "")
     )
-    (path "/31587900-3516-4bc4-ba25-5d34304526dc/8214275b-1253-44db-82ac-2feb1a8e25a2"
-      (reference "#PWR04") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/31587900-3516-4bc4-ba25-5d34304526dc/ec3f2132-890c-47fe-92b8-d45571d7ae27"
-      (reference "#PWR05") (unit 1) (value "+3.3V") (footprint "")
+    (path "/31587900-3516-4bc4-ba25-5d34304526dc/2ec0dfc7-5ed7-4e15-bbfb-becad1cffe40"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/31587900-3516-4bc4-ba25-5d34304526dc/464b9b33-26cc-4ffb-a248-98db711b0f37"
-      (reference "#PWR06") (unit 1) (value "+3.3V") (footprint "")
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
     )
-    (path "/31587900-3516-4bc4-ba25-5d34304526dc/2ec0dfc7-5ed7-4e15-bbfb-becad1cffe40"
-      (reference "#PWR07") (unit 1) (value "GND") (footprint "")
+    (path "/31587900-3516-4bc4-ba25-5d34304526dc/8214275b-1253-44db-82ac-2feb1a8e25a2"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/31587900-3516-4bc4-ba25-5d34304526dc/ec3f2132-890c-47fe-92b8-d45571d7ae27"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/31587900-3516-4bc4-ba25-5d34304526dc/fc114d97-a683-45b7-bd46-362aa4233b92"
       (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
