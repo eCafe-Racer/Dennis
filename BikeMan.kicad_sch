@@ -829,7 +829,19 @@
   (wire (pts (xy 234.95 128.27) (xy 246.38 128.27))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (bus (pts (xy 116.84 93.98) (xy 116.84 160.02))
+  (bus (pts (xy 116.84 93.98) (xy 116.84 96.52))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
+  (bus (pts (xy 116.84 96.52) (xy 116.84 99.06))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
+  (bus (pts (xy 116.84 99.06) (xy 116.84 101.6))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
+  (bus (pts (xy 116.84 101.6) (xy 116.84 104.14))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
+  (bus (pts (xy 116.84 104.14) (xy 116.84 160.02))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (bus (pts (xy 116.84 160.02) (xy 193.04 160.02))
@@ -1749,8 +1761,20 @@
     (path "/31587900-3516-4bc4-ba25-5d34304526dc/35fe0c1a-2877-49e9-b635-ceaf7d56ffb2"
       (reference "#PWR050") (unit 1) (value "+3.3V") (footprint "")
     )
+    (path "/31587900-3516-4bc4-ba25-5d34304526dc/56f15b1c-47a8-48c2-aaf5-26698a1287c8"
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/31587900-3516-4bc4-ba25-5d34304526dc/2d56ae52-d7fd-476c-ab33-f3016097165a"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/31587900-3516-4bc4-ba25-5d34304526dc/b08907e8-ba36-4a23-912c-fa2d9b24a4b3"
+      (reference "C?") (unit 1) (value "100nF") (footprint "")
+    )
     (path "/31587900-3516-4bc4-ba25-5d34304526dc/e009b393-4493-4f84-b3b0-74620462db46"
       (reference "J1") (unit 1) (value "Micro_SD_Card_Det") (footprint "")
+    )
+    (path "/31587900-3516-4bc4-ba25-5d34304526dc/d528d534-d1c3-44fa-9a19-af72e374d589"
+      (reference "J?") (unit 1) (value "MagJack") (footprint "")
     )
     (path "/31587900-3516-4bc4-ba25-5d34304526dc/e6f594e0-d10b-482d-9ce3-c7206d464705"
       (reference "Module1") (unit 1) (value "ComputeModule4-CM4") (footprint "footprints:Raspberry-Pi-4-Compute-Module")
@@ -1760,6 +1784,12 @@
     )
     (path "/31587900-3516-4bc4-ba25-5d34304526dc/9b666400-ac5f-4b1a-923f-3235599d51d6"
       (reference "R5") (unit 1) (value "R") (footprint "")
+    )
+    (path "/31587900-3516-4bc4-ba25-5d34304526dc/1fb91c6c-f6b9-476a-9f0c-2e75a7afd5e9"
+      (reference "R?") (unit 1) (value "R") (footprint "")
+    )
+    (path "/31587900-3516-4bc4-ba25-5d34304526dc/bc700eca-2992-4c14-82b4-fb863db04532"
+      (reference "R?") (unit 1) (value "R") (footprint "")
     )
     (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/5524a9ec-8a9a-43a3-8b5f-b6a0343c8592"
       (reference "#PWR08") (unit 1) (value "GND") (footprint "")
