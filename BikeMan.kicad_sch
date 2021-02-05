@@ -2684,7 +2684,7 @@
       (reference "R34") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/3e7254bd-21f3-4a50-b55c-eab759b31d75"
-      (reference "R35") (unit 1) (value "R") (footprint "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm")
+      (reference "R35") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/3cf310bb-86be-4478-af87-e74ffb425d0e"
       (reference "R36") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric")
@@ -2717,7 +2717,7 @@
       (reference "D3") (unit 1) (value "BAT54C-7-F") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/19c8499b-69ca-41a4-81d4-1e5248b15d37/e41df30f-3a98-457c-ac96-345150e831e5"
-      (reference "U7") (unit 1) (value "PCF85063A") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "U7") (unit 1) (value "PCF85063A") (footprint "")
     )
     (path "/19c8499b-69ca-41a4-81d4-1e5248b15d37/431d80b0-d735-4eed-b778-1a4286a82f1c"
       (reference "Y2") (unit 1) (value "Crystal") (footprint "")
