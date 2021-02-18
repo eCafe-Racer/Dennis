@@ -2557,6 +2557,18 @@
     (path "/31587900-3516-4bc4-ba25-5d34304526dc/37a660dc-0240-4f51-bf0e-d57a9033b68c"
       (reference "U4") (unit 1) (value "RT9742GGJ5") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
+    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/0a9d15d7-e0ef-408b-97c2-629bb0287051"
+      (reference "#PWR01") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/8cbc4c8f-3361-4cc2-b0e7-791d2b22954a"
+      (reference "#PWR02") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/53dff738-a391-43a3-b164-880fc587b37b"
+      (reference "#PWR03") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/34c89023-76bd-4632-95b7-7a8f89968552"
+      (reference "#PWR04") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/25faee66-376a-488d-90df-91467b39aa34"
       (reference "#PWR0140") (unit 1) (value "+3.3V") (footprint "")
     )
@@ -2578,18 +2590,6 @@
     (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/66bb5ef0-2ccf-459b-8b4e-a97b9b745d82"
       (reference "#PWR0146") (unit 1) (value "+3.3V") (footprint "")
     )
-    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/3e375640-d4ba-4d55-ac7e-580f1a509e6f"
-      (reference "#PWR0147") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/8066880b-af92-4a9e-87ac-6cf8fcf4f5cf"
-      (reference "#PWR0148") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/edbe1e54-f801-4b67-a436-12a022f4552d"
-      (reference "#PWR0149") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/4d695596-9d15-448f-9e42-9baa4d7e3a8a"
-      (reference "#PWR0150") (unit 1) (value "GND") (footprint "")
-    )
     (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/d802f90c-4fff-40a1-98af-240323d7839a"
       (reference "#PWR0151") (unit 1) (value "GND") (footprint "")
     )
@@ -2598,6 +2598,18 @@
     )
     (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/4d0589be-9ff5-47b4-829e-6f54b7979c06"
       (reference "#PWR0153") (unit 1) (value "+12V") (footprint "")
+    )
+    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/f8b55cf3-cefd-401d-bf73-5f43c24c43de"
+      (reference "D4") (unit 1) (value "D") (footprint "")
+    )
+    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/d53b48ca-b1c1-4b97-8bb6-8392c9369bd6"
+      (reference "D5") (unit 1) (value "D") (footprint "")
+    )
+    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/71cbcb13-92ae-4245-8847-4a674e89c922"
+      (reference "D6") (unit 1) (value "D") (footprint "")
+    )
+    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/94aefcb5-4224-4a2b-8ab4-e48755082faa"
+      (reference "D7") (unit 1) (value "D") (footprint "")
     )
     (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/d20610a9-7a81-4d60-9d0d-8175707fa45a"
       (reference "Q1") (unit 1) (value "AUIRF7316QTR") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
@@ -2623,77 +2635,77 @@
     (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/555aec13-b179-4220-a5fc-653e7e371331"
       (reference "Q4") (unit 2) (value "AUIRF7316QTR") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
     )
-    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/a9e3aa66-4205-4a97-b438-fc31bf1676e7"
-      (reference "R15") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric")
+    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/6c167715-e269-4787-b298-212471c97751"
+      (reference "R15") (unit 1) (value "CTS-766161102GP") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
-    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/2808cedb-a5a9-4a99-8ff3-f0b80479352d"
-      (reference "R16") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric")
+    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/b7e9da1b-03b9-47ec-ba60-3c45cf921334"
+      (reference "R15") (unit 2) (value "CTS-766161102GP") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
-    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/7e059fe7-89ae-47b6-a788-d8655ebbf19b"
-      (reference "R17") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric")
+    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/02712d73-3127-4a1f-a435-60aa21aeb2e6"
+      (reference "R15") (unit 3) (value "CTS-766161102GP") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
-    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/7cca8670-5440-4206-a46d-d22a81ad03f1"
-      (reference "R18") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric")
+    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/096b1126-ec18-4748-b73a-dee637f64b81"
+      (reference "R15") (unit 4) (value "CTS-766161102GP") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
-    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/20a147ba-f593-43c4-8f4a-72bd9d23da3d"
-      (reference "R19") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric")
+    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/1fb2ed5f-c71e-40b8-9b3d-7e2e8b89551e"
+      (reference "R15") (unit 5) (value "CTS-766161102GP") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
-    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/ce26eb8a-c369-4eae-bf96-182d0f826023"
-      (reference "R20") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric")
+    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/96533b84-7ed3-4d38-8cbc-4e7a01e3f45e"
+      (reference "R15") (unit 6) (value "CTS-766161102GP") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
-    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/445cf469-d99d-4fb0-8fd0-7dda7a8e7f20"
-      (reference "R21") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric")
+    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/80e7db79-3691-4088-840c-90c163cca2b8"
+      (reference "R15") (unit 7) (value "CTS-766161102GP") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
-    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/a57891d5-8fc2-431c-9278-5f37c3492917"
-      (reference "R22") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric")
+    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/a20ce3a7-4885-4249-946b-a5e580225be9"
+      (reference "R15") (unit 8) (value "CTS-766161102GP") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
-    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/eda52264-9701-46d7-8f26-0a37429e0f22"
-      (reference "R23") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric")
+    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/8849cea9-c1dc-474c-9e49-9ad8c979c6ad"
+      (reference "R16") (unit 1) (value "CTS-766161102GP") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
-    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/9aaae187-014c-4c2b-a353-5625781f3705"
-      (reference "R24") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric")
+    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/ba74d45f-bfb1-4b20-9ffb-8731ca468dc6"
+      (reference "R16") (unit 2) (value "CTS-766161102GP") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
-    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/4490dea0-adef-4d7b-8e3a-399c7b8a6d64"
-      (reference "R25") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric")
+    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/74d3aa4a-c77d-4418-af3e-a64be93819c6"
+      (reference "R16") (unit 3) (value "CTS-766161102GP") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
-    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/03194a52-5147-43bf-9538-291620be88d7"
-      (reference "R26") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric")
+    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/4214dc1c-f1ab-4036-9a33-6fe1014dcb62"
+      (reference "R16") (unit 4) (value "CTS-766161102GP") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
-    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/36a22498-f534-4be6-95fa-c06831ef545c"
-      (reference "R27") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric")
+    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/fe68fcee-0297-4823-ab91-28d4cb410a4f"
+      (reference "R16") (unit 5) (value "CTS-766161102GP") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
-    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/8f92ff7b-53b5-4b88-8c95-cd9662aad484"
-      (reference "R28") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric")
+    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/04e426de-07cb-4534-a7b3-6e962ca4a9f5"
+      (reference "R16") (unit 6) (value "CTS-766161102GP") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
-    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/c45ac56f-dfe0-4dec-a754-1aa6bc42212f"
-      (reference "R29") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric")
+    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/e9009c3a-197d-42c2-9004-2a2ec612e71b"
+      (reference "R16") (unit 7) (value "CTS-766161102GP") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
-    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/0ca240ac-0046-45ce-a063-c5703486aa6b"
-      (reference "R30") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric")
+    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/2100bb68-f195-4f48-98e4-e7c44203f690"
+      (reference "R16") (unit 8) (value "CTS-766161102GP") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
-    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/f77a9952-d2cb-435d-8674-6410de8408a1"
-      (reference "R31") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric")
+    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/d4187493-6c66-4b0a-864e-d78a9e43128e"
+      (reference "R17") (unit 1) (value "CTS-766161102GP") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
-    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/b88d0814-7bcb-49ed-aa50-b8ac7b8fb43b"
-      (reference "R32") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric")
+    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/9c4a1599-53f4-44f0-b2ec-b86fee859524"
+      (reference "R17") (unit 2) (value "CTS-766161102GP") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
-    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/df8ea498-63f1-4799-a573-2b190a025849"
-      (reference "R33") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric")
+    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/96a9b89e-415d-4f62-8ff1-cf43f9983919"
+      (reference "R17") (unit 3) (value "CTS-766161102GP") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
-    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/ec66d020-35af-41fb-bb81-d85f31548f2d"
-      (reference "R34") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric")
+    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/f961151c-d789-42c2-8bec-2e0324bca40e"
+      (reference "R17") (unit 4) (value "CTS-766161102GP") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
-    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/3e7254bd-21f3-4a50-b55c-eab759b31d75"
-      (reference "R35") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric")
+    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/5be06c29-215c-4fd7-a778-1139ecf3d0e9"
+      (reference "R17") (unit 5) (value "CTS-766161102GP") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
-    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/3cf310bb-86be-4478-af87-e74ffb425d0e"
-      (reference "R36") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric")
+    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/ff4da606-3bf1-4761-8168-3aba2dfd27bc"
+      (reference "R17") (unit 6) (value "CTS-766161102GP") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
-    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/68ee3490-ee49-4538-8da2-6004433976e9"
-      (reference "R37") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric")
+    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/c2eceb05-8510-40a9-b505-33768a9769e1"
+      (reference "R17") (unit 7) (value "CTS-766161102GP") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
-    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/406c5551-9352-41b1-93d8-223af9feba37"
-      (reference "R38") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric")
+    (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/5584d2ef-f39c-44dd-8b0d-0ff7a17db886"
+      (reference "R17") (unit 8) (value "CTS-766161102GP") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
     (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/9d4a8df7-938a-452b-ab65-484664302d17"
       (reference "U5") (unit 1) (value "NPIC6C596ADJ") (footprint "Package_SO:SOIC-16_4.55x10.3mm_P1.27mm")

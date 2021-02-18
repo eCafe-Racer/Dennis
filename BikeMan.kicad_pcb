@@ -372,7 +372,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tedit 5A02FF57) (tstamp 03eee2ca-1448-48fe-834f-2c216a3a0beb)
-    (at 133.27 126.58)
+    (at 346.71 78.74)
     (descr "SOT-23, Standard")
     (tags "SOT-23")
     (property "Manufacturer" "Diodes Incorporated")
@@ -423,7 +423,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 04cdae3f-1e20-4ff0-9ba8-977a0988047a)
-    (at 168.93 133.71)
+    (at 347.98 40.64)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheet file" "power.kicad_sch")
@@ -722,7 +722,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 0b9ba041-e0c2-4678-b00f-0e6171c69169)
-    (at 168.93 130.7)
+    (at 344.17 48.26)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheet file" "power.kicad_sch")
@@ -1616,7 +1616,7 @@
 
   (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp 3e9ea573-ab1b-4cfd-8208-4b57997ccf69)
-    (at 194.93452 48.27)
+    (at 344.79452 90.18)
     (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Manufacturer" "NXP USA Inc.")
@@ -3853,7 +3853,7 @@
 
   (footprint "Battery:BatteryHolder_Keystone_3001_1x12mm" (layer "F.Cu")
     (tedit 5D9CBE05) (tstamp c037e143-b143-49ff-94e0-052ff018b3b5)
-    (at 209.55 48.26)
+    (at 359.41 90.17)
     (descr "http://www.keyelco.com/product-pdf.cfm?p=778")
     (tags "Keystone type 3001 coin cell retainer")
     (property "Drawing" "www.keyelco.com/product-pdf.cfm?p=778")
