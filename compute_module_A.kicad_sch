@@ -4,8 +4,8 @@
 
   (title_block
     (title "Dennis")
-    (date "2020-12-31")
-    (rev "0.1.1")
+    (date "2021-02-26")
+    (rev "0.1.2")
     (company "eCafe Racer")
   )
 
@@ -1548,14 +1548,14 @@
   (junction (at 184.785 53.975) (diameter 0.9144) (color 0 0 0 0))
   (junction (at 184.785 60.96) (diameter 0.9144) (color 0 0 0 0))
 
-  (no_connect (at 94.615 44.45))
-  (no_connect (at 94.615 62.23))
-  (no_connect (at 203.835 66.675))
-  (no_connect (at 94.615 41.91))
   (no_connect (at 198.755 66.675))
   (no_connect (at 33.655 52.07))
-  (no_connect (at 201.295 66.675))
   (no_connect (at 33.655 49.53))
+  (no_connect (at 94.615 44.45))
+  (no_connect (at 94.615 62.23))
+  (no_connect (at 94.615 41.91))
+  (no_connect (at 203.835 66.675))
+  (no_connect (at 201.295 66.675))
 
   (wire (pts (xy 20.955 133.35) (xy 33.655 133.35))
     (stroke (width 0) (type solid) (color 0 0 0 0))
@@ -1906,10 +1906,10 @@
   (text "Pin locations expected to change" (at 119.888 99.06 90)
     (effects (font (size 1.27 1.27)) (justify left bottom))
   )
-  (text "Near U8" (at 130.81 197.485 180)
+  (text "Near U4" (at 130.81 197.485 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
   )
-  (text "Near J1" (at 144.145 197.485 180)
+  (text "Near J9" (at 144.145 197.485 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
   )
   (text "SD card detection circuit\nCopied from CM4 io board"
