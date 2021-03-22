@@ -44,8 +44,8 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": false,
-          "min_clearance": 0.508
+          "45_degree_only": true,
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -126,6 +126,7 @@
         0.0,
         0.127,
         0.2,
+        0.5,
         1.0
       ],
       "via_dimensions": [
@@ -395,7 +396,7 @@
   },
   "sheets": [
     [
-      "e85b6ff7-70f9-461b-9222-829e9d31a428",
+      "b4c1ce28-a00a-4269-b096-b0e69a64923e",
       ""
     ],
     [
@@ -420,7 +421,7 @@
     ],
     [
       "19c8499b-69ca-41a4-81d4-1e5248b15d37",
-      "RealTimeClock"
+      "I2C extras"
     ]
   ],
   "text_variables": {}
