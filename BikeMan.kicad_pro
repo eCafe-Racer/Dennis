@@ -388,7 +388,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "page_layout\\page_layout.kicad_wks",
-    "plot_directory": "Documentation/0.1.2/",
+    "plot_directory": "Documentation/0.1.3/",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
@@ -396,8 +396,12 @@
   },
   "sheets": [
     [
-      "b4c1ce28-a00a-4269-b096-b0e69a64923e",
+      "36a299ae-ea07-4116-a574-937c1c0c12e7",
       ""
+    ],
+    [
+      "97a6e0d0-e45e-4fe9-a578-968187c50165",
+      "Power Supply"
     ],
     [
       "31587900-3516-4bc4-ba25-5d34304526dc",
@@ -408,8 +412,8 @@
       "ComputeModule_B"
     ],
     [
-      "97a6e0d0-e45e-4fe9-a578-968187c50165",
-      "Power"
+      "d5a51e31-75ea-4197-ae58-942975f63c3e",
+      "USB MUX"
     ],
     [
       "a37aae83-17bc-4ab3-8207-20408c46a8d9",
