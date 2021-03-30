@@ -5,6 +5,8 @@ Dennis is a part of the eCafe Racer project, a collaboration between Tim LaGreca
 1. To operate our test equipment, providing an easy to use and compact interface between components on our test stand and human operators or management software.
 2. A proof of concept for a low voltage management board that will be included in the final bike. The board will serve as an easy to program interface to the bike's CAN bus that will allow us to arbitrarily change the behavior of the other subsystems with certain CAN signals. It will also house a controller for the bike's brakes, turn signals, headlights, etc.
 
+![Isometric View](https://github.com/eCafe-Racer/Dennis/blob/master/Documentation/0.1.3/images/render_iso.jpg)
+
 It is a carrier board for the Raspberry Pi Compute Module 4 with a compact form factor and peripherals specific to its automotive application.
 
 # Peripherals
