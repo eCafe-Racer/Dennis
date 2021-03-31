@@ -7,7 +7,7 @@ Dennis is a part of the eCafe Racer project, a collaboration between Tim LaGreca
 
 Dennis is a Carrier Board for Raspberry Pi's [Computer Module 4](https://www.raspberrypi.org/products/compute-module-4/?variant=raspberry-pi-cm4001000) which provides a set of peripherals and connectors specific to either of the purposes listed above. It is meant to be installed in one of two ways: In test stand, where it can operate exactly like a traditional desktop computer, with dedicated connectors for a monitor, usb keyboard and mouse, wired internet, and DC power, or directly in the bike, where it will behave like a more standard embedded linux system, communicating primarily through CAN, or if possible, an internet connection.
 
-Becasue Dennis is the first board we are developing for this project, and is at this time, explicitly experimental, we are trying to make it is as flexible as possible in order to accomodate the many possible uses we may find for it, hence the long list of peripherals, multiple installation modes, expansion slot, etc. It is likely that, as the project matures, we will gradually decide to reduce Dennis's scope.
+Because Dennis is the first board we are developing for this project, and is at this time, explicitly experimental, we are trying to make it is as flexible as possible in order to accomodate the many possible uses we may find for it, hence the long list of peripherals, multiple installation modes, expansion slot, etc. It is likely that, as the project matures, we will gradually decide to reduce Dennis's scope.
 
 ![Isometric View](https://github.com/eCafe-Racer/Dennis/blob/master/Documentation/0.1.3/images/render_iso.jpg)
 
