@@ -444,18 +444,6 @@
       "Power Supply"
     ],
     [
-      "31587900-3516-4bc4-ba25-5d34304526dc",
-      "ComputeModule_A"
-    ],
-    [
-      "aaa85f83-a7d0-4df3-863b-b08e82081ab8",
-      "ComputeModule_B"
-    ],
-    [
-      "d5a51e31-75ea-4197-ae58-942975f63c3e",
-      "USB MUX"
-    ],
-    [
       "a37aae83-17bc-4ab3-8207-20408c46a8d9",
       "CAN Peripherals"
     ],
