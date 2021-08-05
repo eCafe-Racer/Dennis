@@ -1719,13 +1719,13 @@
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid ad22f5b9-0e27-456c-bd92-bea253bbb5e1)
   )
-  (bus (pts (xy 165.1 87.63) (xy 165.1 118.11))
+  (bus (pts (xy 165.1 85.09) (xy 165.1 118.11))
     (stroke (width 0) (type solid) (color 0 0 0 0))
-    (uuid da5881b3-7541-4ca5-b76a-9d159f61c379)
+    (uuid 1334a89e-7dc7-4a4d-870e-d1e3c0a0ea5c)
   )
-  (bus (pts (xy 168.91 72.39) (xy 168.91 121.92))
+  (bus (pts (xy 168.91 69.85) (xy 168.91 121.92))
     (stroke (width 0) (type solid) (color 0 0 0 0))
-    (uuid 10b62c0a-732c-4c76-a974-4374ede4acf0)
+    (uuid 31558c70-f91c-41f0-9a1f-8d6ca9f77cf3)
   )
 
   (polyline (pts (xy 15.875 165.1) (xy 88.265 165.1))
@@ -2175,7 +2175,7 @@
   (symbol (lib_id "power:GND") (at 133.35 193.04 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid aff81f6a-eb88-48b1-a6a4-5002453e6727)
-    (property "Reference" "#PWR?" (id 0) (at 133.35 199.39 0)
+    (property "Reference" "#PWR0146" (id 0) (at 133.35 199.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 133.35 198.12 0))
@@ -2267,7 +2267,7 @@
   (symbol (lib_id "Device:R") (at 133.35 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c027a0c7-289c-4bc3-82dc-144d4938cbe1)
-    (property "Reference" "R?" (id 0) (at 135.89 187.9599 0)
+    (property "Reference" "R30" (id 0) (at 135.89 187.9599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (id 1) (at 135.89 190.4999 0)
@@ -2445,7 +2445,7 @@
   (symbol (lib_id "ecafe-racer:LED_Green") (at 133.35 181.61 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 1f0d7149-a7e7-4060-99b7-78d2f8bf29d7)
-    (property "Reference" "D?" (id 0) (at 137.16 180.5304 90)
+    (property "Reference" "D18" (id 0) (at 137.16 180.5304 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED_Green" (id 1) (at 137.16 183.0704 90)
@@ -3060,6 +3060,12 @@
     (path "/dcebc119-cccd-4024-8818-4a007a6c2ca8/8169c5c9-f84f-43d7-8921-7c5e4e50eba1"
       (reference "#PWR0145") (unit 1) (value "GND") (footprint "")
     )
+    (path "/aff81f6a-eb88-48b1-a6a4-5002453e6727"
+      (reference "#PWR0146") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/97a6e0d0-e45e-4fe9-a578-968187c50165/60f00d35-d21b-4e1d-a8f4-81206ed7e8f6"
+      (reference "#PWR0147") (unit 1) (value "GND") (footprint "")
+    )
     (path "/97a6e0d0-e45e-4fe9-a578-968187c50165/fcb0cd51-9f00-497e-9bbc-b2dbab7db47b"
       (reference "#PWR0155") (unit 1) (value "GND") (footprint "")
     )
@@ -3176,12 +3182,6 @@
     )
     (path "/19c8499b-69ca-41a4-81d4-1e5248b15d37/4344a0d8-d209-4e63-ac73-34cd25d4b33a"
       (reference "#PWR0199") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/97a6e0d0-e45e-4fe9-a578-968187c50165/60f00d35-d21b-4e1d-a8f4-81206ed7e8f6"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/aff81f6a-eb88-48b1-a6a4-5002453e6727"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/19c8499b-69ca-41a4-81d4-1e5248b15d37/eeb646f8-ecd2-4f7a-a6bd-d4a25607ff16"
       (reference "BT1") (unit 1) (value "Battery_Cell") (footprint "Battery:BatteryHolder_Keystone_3001_1x12mm")
@@ -3313,10 +3313,10 @@
       (reference "D17") (unit 1) (value "LED_Green") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/1f0d7149-a7e7-4060-99b7-78d2f8bf29d7"
-      (reference "D?") (unit 1) (value "LED_Green") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+      (reference "D18") (unit 1) (value "LED_Green") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/97a6e0d0-e45e-4fe9-a578-968187c50165/8799ebb8-87c3-448e-921a-a09aa715c0e2"
-      (reference "D?") (unit 1) (value "LED_Green") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+      (reference "D19") (unit 1) (value "LED_Green") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/56031da0-b30d-40e7-9bf7-184fa400b03d"
       (reference "H1") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3")
@@ -3523,10 +3523,10 @@
       (reference "R29") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/c027a0c7-289c-4bc3-82dc-144d4938cbe1"
-      (reference "R?") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R30") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/97a6e0d0-e45e-4fe9-a578-968187c50165/c69c0079-f61b-44b3-b944-31f1b9deadad"
-      (reference "R?") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R31") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/a37aae83-17bc-4ab3-8207-20408c46a8d9/ce1e3873-ad4a-46e4-bc8e-1516017c2b73"
       (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
