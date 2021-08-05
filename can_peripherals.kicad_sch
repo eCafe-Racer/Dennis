@@ -1172,7 +1172,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 916868ff-d6bf-4666-b8a2-b9abe08dc0be)
   )
-  (hierarchical_label "CAN_{Rx}DIR" (shape input) (at 102.87 54.61 180)
+  (hierarchical_label "CAN_{Rx}DIR" (shape output) (at 102.87 54.61 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid a50d7626-9355-45f4-a931-789dcf24a833)
   )
