@@ -11,6 +11,7 @@ for things like data acquisition and validation testing, as well as in the
 final product in order to provide features like control over bluetooth and
 diagnostics.
 
+
 ![Isometric View](https://raw.githubusercontent.com/eCafe-Racer/Dennis/master/Documentation/0.2.1/3D-renders/iso.jpg)
 
 
@@ -41,17 +42,14 @@ a Raspberry Pi to be mounted adjacent to Dennis in whatever enclosure it is
 being used in, and with a single ribbon cable, connect to the ESP's UART
 interface, as well as the strapping pins needed to do firmware updates, the
 board's I2C bus, and 5V power supply. These signals can also be controlled
-over USB by way of an MCP2221A.
+over USB by way of an MCP2221A, giving us the flexibility to use other external
+computers as well.
 
 
 ## Peripherals
 
-- CAN interface
-- 12V GPIO
-- Ethernet
-- HDMI
-- 4x USB
-- SD card reader
-- Real Time Clock
-- Ambient Temperature Sensor
-- Expansion Slot
+Dennis has a 12V GPIO system with 7 digital outputs and 4 digital inputs.
+Digital outputs can be set to either 12V (on), or High Impedance (off), meaning
+they cannot sink current. The digital inputs consist of two "signal" inputs,
+which measure voltage, and two "switch" inputs, which measure resistance to
+ground.
