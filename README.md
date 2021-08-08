@@ -14,7 +14,7 @@ diagnostics.
 ![Isometric View](https://raw.githubusercontent.com/eCafe-Racer/Dennis/master/Documentation/0.2.1/3D-renders/iso.jpg)
 
 
-## Design
+## Design 
 
 Dennis was originally designed as a carrier board for the Raspberry Pi
 [Compute Module 4](https://www.raspberrypi.org/products/compute-module-4/?variant=raspberry-pi-cm4001000),
@@ -32,15 +32,17 @@ it with an ESP32 microcontroller. The microcontroller will be able to perform
 some simple logical control over the board, but its main job will be to provide
 an interface to the board's peripherals over UART or USB, allowing a more
 powerful computer to connect and perform higher level control and more
-sophisticated analysis. 
+sophisticated analysis.  
 
+In order to make interfacing with external computers easier, a 12 pin connector
+(J1) was added to Dennis that exactly matches the pinout of the first 12
+pins of the 40 pin connector on a traditional Raspberry Pi board. This allows
+a Raspberry Pi to be mounted adjacent to Dennis in whatever enclosure it is 
+being used in, and with a single ribbon cable, connect to the ESP's UART
+interface, as well as the strapping pins needed to do firmware updates, the
+board's I2C bus, and 5V power supply. These signals can also be controlled
+over USB by way of an MCP2221A.
 
-Dennis is a Carrier Board for Raspberry Pi's [Computer Module 4](https://www.raspberrypi.org/products/compute-module-4/?variant=raspberry-pi-cm4001000) which provides a set of peripherals and connectors specific to either of the purposes listed above. It is meant to be installed in one of two ways: In a test stand, where it can operate exactly like a traditional desktop computer, with dedicated connectors for a monitor, usb keyboard and mouse, wired internet, and DC power, or directly in the bike, where it will behave like a more standard embedded linux system, communicating primarily through CAN, or if possible, an internet connection.
-
-Because Dennis is the first board we are developing for this project, and is at this time, explicitly experimental, we are trying to make it is as flexible as possible in order to accomodate the many possible uses we may find for it, hence the long list of peripherals, multiple installation modes, expansion slot, etc. It is likely that, as the project matures, we will gradually decide to reduce Dennis's scope.
-
-
-A 3D render of Dennis from the top.
 
 ## Peripherals
 
