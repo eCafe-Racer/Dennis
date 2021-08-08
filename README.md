@@ -52,4 +52,18 @@ Dennis has a 12V GPIO system with 7 digital outputs and 4 digital inputs.
 Digital outputs can be set to either 12V (on), or High Impedance (off), meaning
 they cannot sink current. The digital inputs consist of two "signal" inputs,
 which measure voltage, and two "switch" inputs, which measure resistance to
-ground.
+ground. The switch inputs are meant to make it easier to install switches or
+buttons on the bike and to program them for near arbitrary behavior, like
+turn signals or a horn.
+
+
+## Resources
+
+- [schematic](https://raw.githubusercontent.com/eCafe-Racer/Dennis/master/Documentation/0.2.1/schematic.pdf)
+
+- Top View
+![Top View](https://github.com/eCafe-Racer/Dennis/blob/master/Documentation/0.2.1/3D-renders/top.jpg)
+
+- Bottom View
+![Bottom View](https://github.com/eCafe-Racer/Dennis/blob/master/Documentation/0.2.1/3D-renders/bottom.jpg)
+
