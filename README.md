@@ -59,7 +59,9 @@ turn signals or a horn.
 
 ## Resources
 
-- [schematic](https://raw.githubusercontent.com/eCafe-Racer/Dennis/master/Documentation/0.2.1/schematic.pdf)
+- [Schematic](https://raw.githubusercontent.com/eCafe-Racer/Dennis/master/Documentation/0.2.1/schematic.pdf)
+- [Step File](https://raw.githubusercontent.com/eCafe-Racer/Dennis/master/Documentation/0.2.1/step-file.step)
+- [Gerbers](https://raw.githubusercontent.com/eCafe-Racer/Dennis/master/production/0.2/gerbers.zip)
 
 - Top View
 ![Top View](https://github.com/eCafe-Racer/Dennis/blob/master/Documentation/0.2.1/3D-renders/top.jpg)
